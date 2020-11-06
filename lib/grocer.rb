@@ -44,6 +44,7 @@ def consolidate_cart(cart)
     # increase counter to go through every item within cart
     counter += 1
   end
+  new_cart
 end
 
 # return: [{:item => "Avacado", :price => 3.00, :clearance => true, :count => 3}]
